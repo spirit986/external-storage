@@ -5,4 +5,5 @@ metadata:
 provisioner: tomspirit.local/nfs
 mountOptions:
   - vers=4.1
+reclaimPolicy: Retain
 

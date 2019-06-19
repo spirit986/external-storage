@@ -87,6 +87,9 @@ spec:
             - name: export-volume
               mountPath: /export
 
+      nodeSelector:
+        kubernetes.io/hostname: knas.tomspirit.local
+
       tolerations:
         - key: node-type
           operator: Equal
