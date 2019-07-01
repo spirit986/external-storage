@@ -1,5 +1,9 @@
 Testing the [NFS Provisioner](https://github.com/spirit986/external-storage/tree/master/nfs) with this fork at my personal Kubernettes setup, in order to provide automated NFS Volumes for the pods.
 
+The rest bellow is from the original author.
+
+---
+
 Although many of these recipes still work, this repo is now deprecated, moving work to https://github.com/kubernetes-sigs/sig-storage-lib-external-provisioner, come join us there !  
 
 # External Storage
